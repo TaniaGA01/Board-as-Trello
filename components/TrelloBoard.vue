@@ -28,7 +28,6 @@ const alt = useKeyModifier("Alt")
                         handle=".drag-handle"
                         group="tasks"
                         item-key="id"
-                        
                     > -->
                     <draggable 
                             v-model="column.tasks"
@@ -39,7 +38,9 @@ const alt = useKeyModifier("Alt")
                             
                         >
                         <template #item="{ element:task } : {element:Task}">
-                            <TrelloBoardTask :task="task" />
+                            <div>
+                                <TrelloBoardTask :task="task" />
+                            </div>
                         </template>
                     </draggable>
                     <footer>
