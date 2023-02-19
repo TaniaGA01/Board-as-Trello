@@ -44,7 +44,8 @@ const alt = useKeyModifier("Alt")
                         </template>
                     </draggable>
                     <footer>
-                        <button class="text-gray-500 text-xs">+ ajouter une carte</button>
+                        <!-- <button class="text-gray-500 text-xs">+ ajouter une carte</button> -->
+                        <NewTask @add="column.tasks.push($event)" />
                     </footer>
                 </div>
             </template>
