@@ -1,3 +1,3 @@
 <template>
-    <span class="drag-handle text-right w-full inline-block cursor-move">⠏ </span>
+    <span class="drag-handle text-left cursor-grab">⠏ </span>
 </template>

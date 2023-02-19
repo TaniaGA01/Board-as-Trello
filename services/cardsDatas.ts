@@ -16,7 +16,7 @@ export const cardsData = [
             },
             {
             id: nanoid(),
-            title: "Create a funny landingpage",
+            title: "Create a funny landingpage with Nuxt and Tailwind",
             createdAt: new Date()
             },
         ]

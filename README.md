@@ -62,4 +62,8 @@ you can also copy and paste it from here: ⣿
 on Mac : "control" + "commande" + "spacebar"
 ```
 
+```bash
+Sortable options : https://github.com/SortableJS/sortable
+```
+
 # Board-as-Trello
