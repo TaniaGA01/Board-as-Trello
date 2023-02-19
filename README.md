@@ -50,4 +50,16 @@ TailwindCSS : npm install --save-dev @nuxtjs/tailwindcss
 ```bash
 VueDraggable and VueUse : npm i vuedraggable@next nanoid @vueuse/nuxt
 ```
+
+## Others
+
+```bash
+For emojis :
+
+on Windows the shortcut is "windows key" + ;
+you can also copy and paste it from here: ⣿
+
+on Mac : "control" + "commande" + "spacebar"
+```
+
 # Board-as-Trello
