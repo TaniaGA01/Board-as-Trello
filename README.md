@@ -1,6 +1,7 @@
 # Cards as Trello
 
 Mini Board as Trello's Board with Nuxt 3 + Vuedraggable + TailWind and TypeScript
+Find here : https://cards-as-trello.netlify.app/
 
 ## Setup
 
