@@ -36,7 +36,7 @@ onKeyStroke("Backspace", (e) => {
     cursor: grab;
 }
 .sortable-drag .task {
-    transform: rotate(5deg);
+    transform: rotate(1deg);
 }
 .sortable-drag .task span{
     cursor: grabbing;

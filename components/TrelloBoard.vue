@@ -67,7 +67,6 @@ const createColumn = () => {
                                 handle=".drag-handle"
                                 :group="{ name: 'tasks', pull: alt ? 'clone' : true }"
                                 item-key="id"
-                                
                             >
                             <template #item="{ element: task } : { element: Task }">
                                 <div>
@@ -98,9 +97,13 @@ const createColumn = () => {
 .column.sortable-ghost {
     @apply bg-slate-100 rounded
 }
-.sortable-drag .column,
-.sortable-drag .column input
+.sortable-drag .column
 {
     transform: rotate(5deg);
+}
+.sortable-drag .column input,
+button
+{
+    transform: rotate(1deg);
 }
 </style>
